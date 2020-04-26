@@ -12,7 +12,7 @@ const Topics = () => {
         {topics.map((topic, index) => {
           return (
             <li key={index}>
-              <Link to={`${match.url}/${topic}`}>{topic}</Link>
+              <Link to={`${match.url}/${topic.slug}`}>{topic.title}</Link>
             </li>
           )
         })}
