@@ -1,46 +1,57 @@
 [
   {
     "slug": "music",
-    "title": "Music"
+    "title": "Music",
+    "description": "Music is vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion."
   },
   {
     "slug": "coding",
-    "title": "Coding"
+    "title": "Coding",
+    "description": "Write instructions for computer"
   },
   {
     "slug": "play-with-cats",
-    "title": "Play with Cats"
+    "title": "Play with Cats",
+    "description": "Have fun with animals that is not dog"
   },
   {
     "slug": "singing",
-    "title": "Singing"
+    "title": "Singing",
+    "description": "Produce music from your throat"
   },
   {
     "slug": "recording",
-    "title": "Recording"
+    "title": "Recording",
+    "description": "Make songs available for people"
   },
   {
     "slug": "play-guitar",
-    "title": "Play Guitar"
+    "title": "Play Guitar",
+    "description": "Enjoying life with most popular instrument"
   },
   {
     "slug": "running-from-reality",
-    "title": "Running from reality"
+    "title": "Running from reality",
+    "description": "Not thinking of anything"
   },
   {
     "slug": "sleeping",
-    "title": "Sleeping"
+    "title": "Sleeping",
+    "description": "Lose consciousness in a good way"
   },
   {
     "slug": "designing",
-    "title": "Designing"
+    "title": "Designing",
+    "description": "Planning to create something with visualization."
   },
   {
     "slug": "writing",
-    "title": "Writing"
+    "title": "Writing",
+    "description": "Compose words to create a meaningful texts"
   },
   {
     "slug": "reading",
-    "title": "Reading"
+    "title": "Reading",
+    "description": "Get some information or knowledges from written texts"
   }
 ]
