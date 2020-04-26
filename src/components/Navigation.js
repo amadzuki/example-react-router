@@ -16,14 +16,6 @@ const Navigation = () => {
         </li>
         <li>
           <Link to="/topics">Topics</Link>
-          <ul>
-            <li>
-              <Link to="/topics/music">Music</Link>
-            </li>
-            <li>
-              <Link to="/topics/coding">Coding</Link>
-            </li>
-          </ul>
         </li>
       </ul>
     </nav>
