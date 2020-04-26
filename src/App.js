@@ -1,27 +1,19 @@
 import React from "react"
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+
+import Navigation from "./components/Navigation"
 
 import Home from "./pages/home"
 import About from "./pages/about"
 import Users from "./pages/users"
+import Topics from "./pages/topics"
+import Topic from "./pages/topic"
 
 const App = () => {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
+        <Navigation></Navigation>
 
         <Switch>
           <Route path="/" exact>
@@ -32,6 +24,12 @@ const App = () => {
           </Route>
           <Route path="/users">
             <Users />
+          </Route>
+          <Route path="/topics" exact>
+            <Topics />
+          </Route>
+          <Route path="/topics/:topicId">
+            <Topic />
           </Route>
         </Switch>
       </div>
