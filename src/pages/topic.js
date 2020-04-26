@@ -6,13 +6,13 @@ const Topic = () => {
   // play-with-cats from slug /topics/play-with-cats
   const { topicId } = useParams()
 
-  const { title } = topics.find((topic) => topic.slug === topicId)
+  const { title, description } = topics.find((topic) => topic.slug === topicId)
 
   return (
     <div>
       <h1>{title}</h1>
 
-      <p>Description</p>
+      <p>{description}</p>
     </div>
   )
 }
